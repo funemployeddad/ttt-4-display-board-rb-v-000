@@ -1,6 +1,8 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 def rows
   cell = "   "
   vertical_divider = "|"
@@ -15,3 +17,5 @@ def display_board
    puts horizontal_divider
    puts rows
 end
+
+display_board(board)
