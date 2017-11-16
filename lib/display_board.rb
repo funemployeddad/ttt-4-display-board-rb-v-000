@@ -3,19 +3,10 @@
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def rows
-  cell = "   "
-  vertical_divider = "|"
-  print "#{cell}#{vertical_divider}#{cell}#{vertical_divider}#{cell}"
-end
+def display_board(board)
+puts " #{board[0]} | #{board[1]} | #{board[2]} "
+puts "-----------"
 
-def display_board
-  horizontal_divider = "-----------"
-   puts rows
-   puts horizontal_divider
-   puts rows
-   puts horizontal_divider
-   puts rows
 end
 
 display_board(board)
